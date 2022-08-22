@@ -29,9 +29,13 @@ It is best to use relative paths for files.
 # 原理
 ## Principle
 **如果你想写一个类似的程序，请不要模仿我的，因为我这样对字符串进行处理的方式很蠢**
+
 **If you want to make a similar program, please don't imitate mine because the way I handle strings like this is stupid**
+
 *如果你能看懂代码的话，读注释或许更有帮助*
+
 *If you can realize the code, it might be more helpful to read the comments*
+
 这涉及到Minecraft对种子码的处理。
 简单来说就是，
 将一串种子码转化为十六进制数，它的前4位数字决定世界地形的生成，后12位数字决定世界结构的生成。
@@ -44,5 +48,4 @@ In this way, as long as we filter the seeds with the same last 12 digits, we can
 
 ---
 
-**该软件由HaroldHC制作**
 **This program is made by HaroldHC**
