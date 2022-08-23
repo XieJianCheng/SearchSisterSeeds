@@ -45,7 +45,3 @@ This involves Minecraft's handling of seed codes.
 Simply put,
 Convert a string of seed codes into hexadecimal numbers, the first 4 digits of which determine the generation of the world terrain, and the last 12 digits to determine the generation of the world structure.
 In this way, as long as we filter the seeds with the same last 12 digits, we can easily find the sister seeds.
-
----
-
-**This program is made by HaroldHC**
