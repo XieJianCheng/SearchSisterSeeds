@@ -6,11 +6,11 @@
 # 介绍
 ## Introduction
 这个程序可以帮你快速在一个txt文件中找到一个种子的姐妹种
-但是由于这个程序目前只能单线程运行，所以在读取较大的文件(大于约100M)时运行速度会很慢
+但是由于这个程序目前只能单线程运行，所以在读取较大的文件(大于约500M)时运行速度会很慢
 
 This program can help you quickly find sisters of a seed in a txt file.
 But since this program can only run in a single thread at present.
-So reading larger files (more than 100M or so) will be very slow.
+So reading larger files (more than 500M or so) will be very slow.
 
 ---
 
