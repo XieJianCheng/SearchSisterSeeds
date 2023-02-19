@@ -27,8 +27,8 @@ print(f"primary seed's structure:{searching_hex}")
 searched_list = []
 search_times = 0
 for i in file_content_list:
-    now_seed_str = i[:-1]
-    now_seed_int = int(i[:-1])
+    now_seed_str = i.split(' ')[0]
+    now_seed_int = int(not_seed_str)
     seed_hex = get_hex(now_seed_int)
     if seed_hex == searching_hex:
         search_times += 1
